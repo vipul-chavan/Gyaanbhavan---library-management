@@ -1,0 +1,66 @@
+nav {
+  background-color: #336cc3; /* set background color to dark pink */
+  padding: 30px; /* add padding for better layout */
+}
+
+ul {
+  list-style: none; /* remove default bullet points */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+  display: flex; /* use flexbox to align links */
+  justify-content: flex-start; /* align links to left */
+}
+
+li {
+  margin-right: 20px; /* add margin between links */
+}
+
+a {
+  color: #0b0a0b; /* set link color to white */
+  text-decoration: none; /* remove underline */
+  transition: all 0.3s ease-in-out; /* add transition effect */
+}
+
+a:hover {
+  color: #fafafa;
+}
+
+
+  
+  /* card */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color:    #87CEEB;
+    color: #280f6c;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FF69B4;
+  }
+  
